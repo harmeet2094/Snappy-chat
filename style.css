@@ -6,3 +6,40 @@ html, body {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+body{
+  background-image: url("vaas.jpg");
+  background-size: 100% 130%;;
+  background-repeat: no-repeat;
+}
+.main{
+  width: 500px;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.logo{
+  font-size: 50px;
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 0;
+
+}
+.tagline{
+  font-size: 24px;
+  color: white;
+}
+.button{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor:pointer;
+  opacity: 0.4;
+}
+.button:hover{
+  opacity: 0.7;
+  background: white;
+  color: blueviolet;
+}
