@@ -6,7 +6,7 @@ html, body {
 *, *:before, *:after {
     box-sizing: inherit;
 }
-body{
+body.homepage{
   background-image: url("vaas.jpg");
   background-size: 100% 130%;;
   background-repeat: no-repeat;
@@ -23,11 +23,13 @@ body{
   color: white;
   margin-bottom: 10px;
   margin-top: 0;
+  opacity: 0.9;
 
 }
 .tagline{
-  font-size: 24px;
+  font-size: 15px;
   color: white;
+  opacity: 0.9;
 }
 .button{
   background-color: black;
@@ -36,10 +38,93 @@ body{
   padding: 10px 20px;
   border-radius: 4px;
   cursor:pointer;
-  opacity: 0.4;
+  opacity: 0.9;
 }
 .button:hover{
-  opacity: 0.7;
+  opacity: 1;
   background: white;
-  color: blueviolet;
+  color: black;
+}
+
+/*
+chat page
+
+*/
+
+.member-area{
+  position:fixed;
+  top: 0;
+  bottom: 0;
+  left:0;
+  width:30%;
+  background: grey;
+  color: white;
+}
+.user-info{
+  background: white;
+  color:black;
+  padding: 20px;
+  font-weight: bold;
+
+}
+.logout{
+  float: right;
+}
+.member{
+  padding: 10px;
+  border-bottom:solid 1px white;
+}
+member:hover{
+  background: white;
+  color:darkblue;
+}
+.member.active{
+  font-weight: bold;
+  background-color: azure;
+  color:darkblue;
+}
+.message-area{
+  background-color: azure;
+  position: fixed;
+  left: 30%;
+  top:0;
+  bottom:0;
+  width:70%;
+}
+.chat-info{
+  background-color: white;
+  padding: 20px;
+  color: #000000;
+}
+.messages{
+  background: lightblue;
+  height: 80%;
+  padding: 10px;
+  overflow: auto;
+
+}
+.message{
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+.message.by-user{
+  background: grey;
+}
+.chat-form{
+  position: fixed;
+  left: 30%;
+  bottom: 0;
+  width: 70%;
+  background: white;
+  padding:20px;
+
+}
+.chat-message{
+  padding: 10px;
+  border: solid 1px lightgrey;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
 }
