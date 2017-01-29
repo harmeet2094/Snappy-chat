@@ -57,7 +57,7 @@ chat page
   bottom: 0;
   left:0;
   width:30%;
-  background: grey;
+  background: #673ab7;
   color: white;
 }
 .user-info{
@@ -104,13 +104,13 @@ member:hover{
 
 }
 .message{
-  background: #fff;
+  background: #bac;
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 4px;
 }
 .message.by-user{
-  background: grey;
+  background: #19a093;
 }
 .chat-form{
   position: fixed;
